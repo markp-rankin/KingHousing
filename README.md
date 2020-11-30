@@ -1,7 +1,7 @@
 # KingHousing
 ##### Flatiron Phase 2 project with Multiple Regression Analysis
 
-![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_picture.jpg?raw=true)
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_pic.jpg?raw=true)
 
 ## M3 Consulting
 ##### Our team is composed of Mark Patterson, Matthew Zhang, and Mel Friedman. Our goal is to find affordable housing in Seattle, Washington and the surrounding King County area using predictive data modeling.
@@ -19,16 +19,19 @@
 #### 3. Create an accurate model with low error that includes important features that homeowners want in the price range that they can afford.
 
 ## Milestones
-### Approach A
+### Exploratory Data Analysis
+
+
+### Model Approach A
 ##### Created a preliminary model for inference and focused on low and medium priced houses in the range of $154,000 to $605,000. Eventually this was split to just include medium priced homes which further limited the data to $315,000 to $605,000. All seven of the models we created had poor R² levels (approximately 0.10). After further EDA we learned that this grouping had poor linearity patterns.
 
-### Approach B
+### Model Approach B
 ##### Adjusted data to include houses only in our low priced range ($154,000 to $315,000) as well as one-hot encode condition, grade, bedroom, and bathrooms columns. We found that our R² score went up, but not by much and only ever got as high as 0.188. 
 
-### Approach C
+### Model Approach C
 ##### Continued modeling with the dataset used in approach B, but did some transformations on our data. These transformations included getting the log of grade (np.log()) and min-max scaling on the other thirteen predictor variables with the exception of price, yr_built, and yr_renovated. R² did not have much significant change and only increased to 0.2. 
 
-### Approach D
+### Model Approach D
 ##### After not seeing significant changes from data transformations we decided to add more predictor variables related to locational data (latitude, longitude, and zipcode columns). Based on mapping where houses were located and how much they sold for, we could tell that houses sold in southern King County were generally less expensive than houses in the north. Once these predictor variables were added the R² went up all the way to 0.492. 
 
 ##### We then created 6 bands in equal length for the latitude as well as another 6 bands on 20 year intervals for how old the homes are. After these inclusions we made further adjustments and deleted predictors that had a p-value higher than 0.05 as well as check for mutli-collinearity and delete and conflicting predictors. After these final adjustments, we ended up with an R² of 0.518.
