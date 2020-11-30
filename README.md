@@ -32,3 +32,4 @@
 ##### We then created 6 bands in equal length for the latitude as well as another 6 bands on 20 year intervals for how old the homes are. After these inclusions we made further adjustments and deleted predictors that had a p-value higher than 0.05 as well as check for mutli-collinearity and delete and conflicting predictors. After these final adjustments, we ended up with an R^2 of 0.518.
 
 ## Predictive Modeling
+##### From our final model we can enter in a predictor such as how many bedrooms is wanted or how old of a house someone would want to predict what the price may be. For the case of the Salazar family, a 1,200sqft house in our 5th latitude grouping would cost approximately $365,000 which is out of their budget, however a house of the same square foot in the 3rd latitude grouping would cost approximately $256,000 which is comfortably in their price range. 
