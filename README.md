@@ -1,7 +1,7 @@
 # KingHousing
 ##### Flatiron Phase 2 project with Multiple Regression Analysis
 
-![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_picture.jpg?raw=true)
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_pic.jpg?raw=true)
 
 ## M3 Consulting
 ##### Our team is composed of Mark Patterson, Matthew Zhang, and Mel Friedman. Our goal is to find affordable housing in Seattle, Washington and the surrounding King County area using predictive data modeling.
