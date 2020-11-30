@@ -1,6 +1,8 @@
 # KingHousing
 ##### Flatiron Phase 2 project with Multiple Regression Analysis
 
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_picture.jpg?raw=true)
+
 ## M3 Consulting
 ##### Our team is composed of Mark Patterson, Matthew Zhang, and Mel Friedman. Our goal is to find affordable housing in Seattle, Washington and the surrounding King County area using predictive data modeling.
 
@@ -30,6 +32,13 @@
 ##### After not seeing significant changes from data transformations we decided to add more predictor variables related to locational data (latitude, longitude, and zipcode columns). Based on mapping where houses were located and how much they sold for, we could tell that houses sold in southern King County were generally less expensive than houses in the north. Once these predictor variables were added the R^2 went up all the way to 0.492. 
 
 ##### We then created 6 bands in equal length for the latitude as well as another 6 bands on 20 year intervals for how old the homes are. After these inclusions we made further adjustments and deleted predictors that had a p-value higher than 0.05 as well as check for mutli-collinearity and delete and conflicting predictors. After these final adjustments, we ended up with an R^2 of 0.518.
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/lat_zones.png?raw=true)
+
 
 ## Predictive Modeling
 ##### From our final model we can enter in a predictor such as how many bedrooms is wanted or how old of a house someone would want to predict what the price may be. For the case of the Salazar family, a 1,200sqft house in our 5th latitude grouping would cost approximately $365,000 which is out of their budget, however a house of the same square foot in the 3rd latitude grouping would cost approximately $256,000 which is comfortably in their price range. 
+
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/top_feature_contributions.png?raw=true)
+
+
+## Next Steps
