@@ -20,7 +20,11 @@
 
 ## Milestones
 ### Exploratory Data Analysis
-
+##### Our EDA was started with a brief search for null values and then splitting values into their own dataframes based on the type of house feature they were to make early visualizations easier to read. 
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/new_dfs.png?raw=true)
+##### After this was done, we checked linearity and correlation (linearity was checked for each individual dataframe, while correlation was plotted using the original dataframe). 
+![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/corr.png?raw=true)
+##### Outliers were deleted, such as a house with 33 bedrooms and houses where a sale price two standard deviations away from the mean. At this point we felt ready to start our first basic model.
 
 ### Model Approach A
 ##### Created a preliminary model for inference and focused on low and medium priced houses in the range of $154,000 to $605,000. Eventually this was split to just include medium priced homes which further limited the data to $315,000 to $605,000. All seven of the models we created had poor R² levels (approximately 0.10). After further EDA we learned that this grouping had poor linearity patterns.
