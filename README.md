@@ -1,4 +1,4 @@
-# KingHousing
+# Predicting Housing Prices in King County, WA
 ##### Flatiron Phase 2 project with Multiple Regression Analysis
 
 ![Alt Text](https://github.com/melfriedman/KingHousing/blob/main/images/seattle_pic.jpg?raw=true)
